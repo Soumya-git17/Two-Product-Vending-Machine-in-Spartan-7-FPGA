@@ -1,0 +1,12 @@
+# Vivado generated - do not push
+Vending_Machine_FSM.cache/
+Vending_Machine_FSM.runs/
+Vending_Machine_FSM.ip_user_files/
+vivado.jou
+vivado.log
+vivado
+*.jou
+*.log
+*.str
+*.pb
+.Xil/

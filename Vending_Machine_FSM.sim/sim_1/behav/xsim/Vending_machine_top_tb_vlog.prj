@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../AMD_VIVADO/2025.1/Vivado/data/rsb/busdef" \
+"../../../../Vending_Machine_FSM.srcs/sources_1/new/Vending_controller.v" \
+"../../../../Vending_Machine_FSM.srcs/sources_1/new/Vending_datapath.v" \
+"../../../../Vending_Machine_FSM.srcs/sources_1/new/Vending_top.v" \
+"C:/Users/user/Downloads/seven_seg_decoder.v" \
+"../../../../Vending_Machine_FSM.srcs/sim_1/new/Vending_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

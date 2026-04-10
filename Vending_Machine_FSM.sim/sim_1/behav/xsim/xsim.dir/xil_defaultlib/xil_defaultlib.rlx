@@ -1,0 +1,10 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+C:/Users/user/Downloads/seven_seg_decoder.v,1771467953,verilog,,E:/Vivado_projects/Vending_Machine_FSM/Vending_Machine_FSM.srcs/sim_1/new/Vending_tb.v,,seven_seg_decoder,,,../../../../../../AMD_VIVADO/2025.1/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_projects/Vending_Machine_FSM/Vending_Machine_FSM.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
+E:/Vivado_projects/Vending_Machine_FSM/Vending_Machine_FSM.srcs/sim_1/new/Vending_tb.v,1775457331,verilog,,,,Vending_machine_top_tb,,,../../../../../../AMD_VIVADO/2025.1/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_projects/Vending_Machine_FSM/Vending_Machine_FSM.srcs/sources_1/new/Vending_controller.v,1774534718,verilog,,E:/Vivado_projects/Vending_Machine_FSM/Vending_Machine_FSM.srcs/sources_1/new/Vending_datapath.v,,Vending_controller,,,../../../../../../AMD_VIVADO/2025.1/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_projects/Vending_Machine_FSM/Vending_Machine_FSM.srcs/sources_1/new/Vending_datapath.v,1775460767,verilog,,E:/Vivado_projects/Vending_Machine_FSM/Vending_Machine_FSM.srcs/sources_1/new/Vending_top.v,,Vending_datapath,,,../../../../../../AMD_VIVADO/2025.1/Vivado/data/rsb/busdef,,,,,
+E:/Vivado_projects/Vending_Machine_FSM/Vending_Machine_FSM.srcs/sources_1/new/Vending_top.v,1775464660,verilog,,C:/Users/user/Downloads/seven_seg_decoder.v,,Vending_machine_top,,,../../../../../../AMD_VIVADO/2025.1/Vivado/data/rsb/busdef,,,,,

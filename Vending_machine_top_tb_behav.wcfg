@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Vending_machine_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Vending_machine_top_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="624.850 ns"></ZoomEndTime>
+      <Cursor1Time time="285.887 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="156"></NameColumnWidth>
+      <ValueColumnWidth column_width="62"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/Vending_machine_top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/buy" type="logic">
+      <obj_property name="ElementShortName">buy</obj_property>
+      <obj_property name="ObjectShortName">buy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/coin" type="logic">
+      <obj_property name="ElementShortName">coin</obj_property>
+      <obj_property name="ObjectShortName">coin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/pq" type="logic">
+      <obj_property name="ElementShortName">pq</obj_property>
+      <obj_property name="ObjectShortName">pq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/go" type="logic">
+      <obj_property name="ElementShortName">go</obj_property>
+      <obj_property name="ObjectShortName">go</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/s1s2" type="array">
+      <obj_property name="ElementShortName">s1s2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s1s2[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/balance_display" type="array">
+      <obj_property name="ElementShortName">balance_display[6:0]</obj_property>
+      <obj_property name="ObjectShortName">balance_display[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/return_display" type="array">
+      <obj_property name="ElementShortName">return_display[6:0]</obj_property>
+      <obj_property name="ObjectShortName">return_display[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/selected_product_led" type="array">
+      <obj_property name="ElementShortName">selected_product_led[1:0]</obj_property>
+      <obj_property name="ObjectShortName">selected_product_led[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/selected_quantity_led" type="array">
+      <obj_property name="ElementShortName">selected_quantity_led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">selected_quantity_led[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/error" type="logic">
+      <obj_property name="ElementShortName">error</obj_property>
+      <obj_property name="ObjectShortName">error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/purchase_mode_active" type="logic">
+      <obj_property name="ElementShortName">purchase_mode_active</obj_property>
+      <obj_property name="ObjectShortName">purchase_mode_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/idle_mode_status" type="logic">
+      <obj_property name="ElementShortName">idle_mode_status</obj_property>
+      <obj_property name="ObjectShortName">idle_mode_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/uut/dp/quantity" type="array">
+      <obj_property name="ElementShortName">quantity[3:0]</obj_property>
+      <obj_property name="ObjectShortName">quantity[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/uut/dp/enough_balance" type="logic">
+      <obj_property name="ElementShortName">enough_balance</obj_property>
+      <obj_property name="ObjectShortName">enough_balance</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/uut/dp/stock_ok" type="logic">
+      <obj_property name="ElementShortName">stock_ok</obj_property>
+      <obj_property name="ObjectShortName">stock_ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/uut/dp/balance" type="array">
+      <obj_property name="ElementShortName">balance[7:0]</obj_property>
+      <obj_property name="ObjectShortName">balance[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/uut/dp/total_cost" type="array">
+      <obj_property name="ElementShortName">total_cost[7:0]</obj_property>
+      <obj_property name="ObjectShortName">total_cost[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/uut/dp/price" type="array">
+      <obj_property name="ElementShortName">price[7:0]</obj_property>
+      <obj_property name="ObjectShortName">price[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/uut/dp/stock_p1" type="array">
+      <obj_property name="ElementShortName">stock_p1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">stock_p1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/uut/dp/stock_p2" type="array">
+      <obj_property name="ElementShortName">stock_p2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">stock_p2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/uut/dp/P1_PRICE" type="array">
+      <obj_property name="ElementShortName">P1_PRICE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">P1_PRICE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Vending_machine_top_tb/uut/dp/P2_PRICE" type="array">
+      <obj_property name="ElementShortName">P2_PRICE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">P2_PRICE[31:0]</obj_property>
+   </wvobject>
+</wave_config>
