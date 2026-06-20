@@ -1,7 +1,6 @@
 # FPGA Vending Machine using Verilog in Vivado
 
 ## Overview
-
 This project implements a vending machine on FPGA using Verilog HDL. The design follows a modular approach with separate controller and datapath units. The vending machine accepts coins, tracks balance, dispenses products, returns change, and displays information on seven-segment displays.
 
 ## Features
